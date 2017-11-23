@@ -1,0 +1,4 @@
+<!--xml-->
+<launch>
+    <node pkg="rqt_mission_monitor" type="rqt_mission_monitor" name="rqt_mission_monitor_node" output="screen" respawn="true"/>
+</launch>

@@ -1,0 +1,17 @@
+<library path="lib/librqt_mypkg">
+  <class name="rqt_mypkg/MyPlugin" type="rqt_mypkg::MyPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A GUI plugin to monitor sensors.
+    </description>
+    <qtgui>
+      <group>
+        <label>Nymble Arm</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to Argos.</statustip>
+      </group>
+      <label>ARM STATUS</label>
+      <icon type="theme">image-x-generic</icon>
+      <statustip>A GUI plugin to monitor sensors.</statustip>
+    </qtgui>
+  </class>
+</library>

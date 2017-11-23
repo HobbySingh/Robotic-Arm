@@ -1,0 +1,31 @@
+<package>
+  <name>rqt_mypkg</name>
+  <version>0.3.10</version>
+  <description>rqt_mypkg provides a GUI plugin</description>
+
+  <maintainer email="samuel.bachmann@gmail.com">Samuel Bachmann</maintainer>
+  <license>TODO</license>
+  <!-- <url type="website">http://www.ethz.ch</url> -->
+  <author email="samuel.bachmann@gmail.com">Samuel Bachmann</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rqt_gui</build_depend>
+  <build_depend>rqt_gui_cpp</build_depend>
+  <build_depend>pick_proto</build_depend>
+  <build_depend>place_proto</build_depend>
+  <build_depend>dispense_proto</build_depend>
+  <build_depend>stir_proto</build_depend>
+
+  <run_depend>rqt_gui</run_depend>
+  <run_depend>rqt_gui_cpp</run_depend>
+  <run_depend>pick_proto</run_depend>
+  <run_depend>place_proto</run_depend>
+  <run_depend>dispense_proto</run_depend>
+  <run_depend>stir_proto</run_depend>  
+
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+    <cpp lflags="-lmysqlclient"/>
+  </export>
+</package>
